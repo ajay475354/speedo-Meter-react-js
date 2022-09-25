@@ -1,0 +1,79 @@
+.container {
+  background-color: #07080c;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    min-height: 120vh;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.speedometer {
+  height: 40vh;
+  width: 40vw;
+}
+@media screen and (min-width: 768px) {
+  .speedometer {
+    height: 50vh;
+    width: 50vw;
+  }
+}
+.heading1 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 300px;
+}
+.span {
+  font-weight: 600;
+  font-size: 30px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button1 {
+  background-color: #0b69ff;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+.button2 {
+  background-color: transparent;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
